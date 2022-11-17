@@ -1,0 +1,105 @@
+*,
+* ::after,
+* ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(14, 14, 46);
+}
+
+#whole{
+    padding: 2rem 6rem 3rem;
+    max-width: 80%;
+    background: linear-gradient(to right, rgb(71, 71, 201),lightseagreen,lightblue);
+    border-radius: 12px;
+    text-align: center;
+    border: 2px dotted blue;
+    cursor: pointer;
+}
+
+.quiz{
+    font-size: 1.5rem;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+    margin: 1.5em 0 2.5em;
+    cursor: pointer;
+}
+
+.option-btn{
+    padding: 10px 20px;
+    background: rgb(179, 28, 28);
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    color: wheat;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgb(14, 13, 13);
+    border: 1px solid brown;
+}
+
+.display{
+    font-size: 1.25em;
+    margin-bottom: 12px;
+}
+
+.ctrl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new, .next{
+    padding: 15px 25px;
+    background: rgb(179, 28, 28);
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.invisible{
+    display: none;
+}
+
+.option-btn.correct{
+    background-color: green;
+}
+
+.option-btn.wrong{
+    background-color: red;
+}
+
+.display.correct{
+    content: 'CORRECT';
+}
+
+.display.correct{
+    content: 'WRONG';
+}
+
+body.correct{
+    background-color: green;
+}
+
+body.wrong{
+    background-color:red;
+}
