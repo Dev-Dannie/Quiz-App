@@ -1,4 +1,4 @@
-# TIC-TAC-TOE GAME
+# JAVASCRIP QUIZ APP
 
 Built a Quiz App with Vanilla Javascript! 
 
