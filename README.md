@@ -1,4 +1,4 @@
-# JAVASCRIP QUIZ APP
+# JAVASCRIPT QUIZ APP
 
 Built a Quiz App with Vanilla Javascript! 
 
